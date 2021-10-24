@@ -129,11 +129,6 @@ int getTotalManhattanDistance() {
  * @return the estimated value of the Manhattan distance for the current state
  */
 int updateTotalManhattanDistance(const int& previousManhattanValue) {
-    // if the empty tile did not move at all (e.g. we are at the starting state), there is no need to update the Manhattan distance
-    if (previousPositionOfZero == currentPositionOfZero) {
-        return previousManhattanValue;
-    }
-
     // determine which tile number moved to the previous empty tile's position
     int numberOnPrevZeroTile = board[previousPositionOfZero.first][previousPositionOfZero.second];
 
