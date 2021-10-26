@@ -83,7 +83,7 @@ void printVectorBackwards(vector<char>& positions) {
     cout << endl;
 }
 
-/* this function is essentially an online dfs, meaning that on each step of the recursion, the algorithm creates
+/* this function is essentially an online backtracking, meaning that on each step of the recursion, the algorithm creates
  * its state without needing a constructed tree beforehand
  * */
 bool findSolution(vector<char>& positions, int posOfStone, int& N) {
