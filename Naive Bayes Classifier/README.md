@@ -1,4 +1,4 @@
-# Naive Bayess Classifier
+# Naive Bayes Classifier
 
 ## Task
 
